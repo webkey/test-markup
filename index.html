@@ -2,8 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>WebSite - Home</title>
-	<!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title>Test Project</title>
 	<!--Mobile optimized-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -12,26 +11,44 @@
 	<link href="favicon.ico" rel="shortcut icon">
 	<!--Main style-->
 	<link href="css/all.css" rel="stylesheet" media="screen">
-	<!--Media queries style-->
-	<link href="css/mq-all.css" rel="stylesheet" media="screen">
-	<!--style for IE-->
-	<!--[if gte IE 9]><link rel="stylesheet" href="css/ie9.css" media="screen, projection"><![endif]-->
-	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" media="screen, projection"><![endif]-->
 </head>
 <body>
 <!--wrapper-->
 <div class="wrapper">
 	<!--header-->
-	<header class="header">
+	<header class="header js-fn-wrapper">
 		<div class="max-wrap">
-			<!--header holder-->
-			<div class="header-holder">
+			<div class="header-top">
 				<!--logo-->
-				<strong class="logo"><a href="#">New Prodject</a></strong>
+				<strong class="logo"><a href="#">Логотип Инжиниринговая компания</a></strong>
 				<!--logo end-->
-				<p>HEADER <br /><br /> Lorem ipsum dolor sit amet, <a href="#">link text</a> consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+				<!-- search form -->
+				<div class="search-form">
+					<form action="#" method="get">
+						<div class="input-holder">
+							<div class="input-wrapper"  data-max-width="293" data-min-width="57" >
+								<input type="search" placeholder="Поиск" />
+							</div>
+							<input class="btn-search" type="submit" value="">
+						</div>
+					</form>
+				</div>
+				<!-- search form end -->
+				<div class="btn-menu js-fn-btn"><div></div></div>
 			</div>
-			<!--header holder end-->
+			<!-- main navigation -->
+			<nav class="nav">
+				<ul class="nav-list js-fn-nav">
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Услуги</a></li>
+					<li><a href="#">Объекты</a></li>
+					<li><a href="#">Закупки</a></li>
+					<li class="active"><span>Партнеры</span></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</nav>
+			<!-- main navigation end -->
 		</div>
 	</header>
 	<!--header end-->
@@ -39,49 +56,61 @@
 	<!--main-->
 	<div class="main">
 		<div class="max-wrap">
-			<!--main holder-->
-			<div class="main-holder">
-				<!--main content wrapper-->
-				<div class="content-wrap">
-					<!--main content-->
-					<div class="content">
-						ContentTextContent
+			<!--main slider-->
+			<div class="slider">
+				<div class="slider-item slider-item-01">
+					<div class="holder">
+						<div class="slider-label">Наши компетенции</div>
+						<div class="slider-title">Объекты химимческой промышленности</div>
+						<div class="slider-text">Важнейшим преимуществом компании является способность проектировать и строить «под ключ». При этом данные процессы ведутся одновременно, что позволяет заказчику значительно сократить общий строительный цикл объекта.</div>
 					</div>
-					<!--main content end-->
 				</div>
-				<!--main content wrapper end-->
-
-				<!--sidebar-->
-				<aside class="sidebar">
-					SIDEBAR <br /> <br /> Lorem ipsum <a href="#">link text</a> dolor sit amet, consectetur adipisicing elit. Sunt asperiores.
-				</aside>
-				<!--sidebar-->
-
-				<!--aside-->
-				<aside class="aside">
-					ASIDE <br /> <br /> Lorem ipsum <a href="#">link text</a> dolor sit amet, consectetur adipisicing elit. Tempora labore!
-				</aside>
-				<!--aside end-->
+				<div class="slider-item slider-item-02">
+					<div class="holder">
+						<div class="slider-label">Наши компетенции (Slide 2)</div>
+						<div class="slider-title">Объекты химимческой промышленности</div>
+						<div class="slider-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consectetur debitis enim impedit minus nam nemo pariatur quis reprehenderit voluptatem.</div>
+					</div>
+				</div>
+				<div class="slider-item slider-item-03">
+					<div class="holder">
+						<div class="slider-label">Наши компетенции (Slide 3)</div>
+						<div class="slider-title">Объекты химимческой промышленности</div>
+						<div class="slider-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A autem beatae cum cupiditate dicta dolor dolores ea eos esse et facere in iure maxime modi nesciunt nihil nostrum omnis pariatur perferendis porro quaerat qui quia quidem quod rem saepe soluta, suscipit tempora tempore unde velit, veritatis voluptate voluptatum. Atque, rerum!</div>
+					</div>
+				</div>
+				<div class="slider-item slider-item-04">
+					<div class="holder">
+						<div class="slider-label">Наши компетенции (Slide 4)</div>
+						<div class="slider-title">Объекты химимческой промышленности</div>
+						<div class="slider-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid blanditiis distinctio dolorum error hic illum ipsum molestias, mollitia nam sint. Ea nam non nulla, quas reprehenderit voluptates voluptatibus. Repellendus, ut!</div>
+					</div>
+				</div>
+				<div class="slider-item slider-item-05">
+					<div class="holder">
+						<div class="slider-label">Наши компетенции (Slide 5)</div>
+						<div class="slider-title">Объекты химимческой промышленности</div>
+						<div class="slider-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad alias animi consequatur ea esse et ex exercitationem fuga, incidunt ipsam maxime nisi omnis quia quis ut, veniam voluptate? Amet beatae expedita fugiat laboriosam molestias obcaecati quo quos saepe vitae?</div>
+					</div>
+				</div>
 			</div>
-			<!--main holder end-->
+			<!--main slider end-->
+			<!--menu services-->
+			<div class="menu-services">
+				<ul class="services-list">
+					<li><a href="#"><span><i class="icon-project"></i></span><span>Услуги проектирования</span></a></li>
+					<li><a href="#"><span><i class="icon-building"></i></span><span>Строительно- монтажные работы</span></a></li>
+					<li><a href="#"><span><i class="icon-expert"></i></span><span>Экспертная деятельность</span></a></li>
+					<li><a href="#"><span><i class="icon-service"></i></span><span>Техническое обслуживание</span></a></li>
+					<li><a href="#"><span><i class="icon-lab"></i></span><span>Испытательная лаборатория</span></a></li>
+				</ul>
+			</div>
+			<!--menu services end-->
 		</div>
 	</div>
 	<!--main end-->
 </div>
 <!--wrapper end-->
-
-<!--footer-->
-<footer class="footer">
-	<div class="max-wrap">
-		<!--footer holder-->
-		<div class="footer-holder">
-			<p>FOOTER <br /> <br /> Lorem ipsum <a href="#">link text</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-		</div>
-		<!--footer holder end-->
-	</div>
-</footer>
-<!--footer end-->
-
 <!--JQuery library-->
 <script src="js/jquery-1.11.3.min.js"></script>
 <!--JQuery UI-->
